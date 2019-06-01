@@ -1,0 +1,96 @@
+﻿html, body {
+	height: 100%;
+	width: 100%;
+	list-style: none;
+}
+
+.navbar {
+	background-color: rgb(222, 167, 104);
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+
+.navbar-brand {
+	min-height: 55px;
+	padding: 0 5px 5px;
+}
+.navbar-brand h1 {
+	font-size: 50px;
+	color:black;
+	font-family: 'lato', sans-serif;
+}
+
+.navbar-default .navbar-nav li a {
+	color: white;
+	padding: 30px;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+	color: white;
+}
+
+#home {
+	background:  url(img/jason-leung-537357-unsplash.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+}
+
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: 700;
+	color: black;
+}
+
+.padding {
+	padding:80px 0;
+}
+
+.padding img {
+	width: 100%;
+}
+
+#fixed {
+	background: url(img/bar-city-commerce-1058277.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+footer {
+	width: 100%;
+	background-color:rgb(222, 167, 104);
+	color: #FFF;
+}
+
+.footer img {
+	height: 100%;
+	width: 100%
+}
+.fa {
+	padding: 25px;
+	font-size: 50px;
+	color:#FFF;
+}
+
+.fa:hover {
+	color: #d5d5d5;
+	text-decoration: none;
+}
+
+.icon {
+	max-width: 300px;
+	vertical-align: center;
+}
+
